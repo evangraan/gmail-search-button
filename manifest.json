@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "V filter",
+  "version": "1.0",
+  "description": "Adds a button to open Gmail with the V filter search.",
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "V filter"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"]
+}
+
